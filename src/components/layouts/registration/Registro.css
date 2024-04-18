@@ -4,6 +4,11 @@ input:focus{
     outline-style: solid;
 }
 
+#divRegistro{
+    margin-right: 350px;
+    margin-bottom: 125px;
+}
+
 #logo{
     display: block;
     max-width: 200px;
@@ -21,6 +26,7 @@ input:focus{
     border-bottom: 14px solid #ee2b7b;
     display: block;
     margin-top: -50px;
+
 }
 
 #form-registro h5{

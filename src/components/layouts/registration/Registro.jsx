@@ -1,6 +1,4 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faArrowRightToBracket } from "@fortawesome/free-solid-svg-icons";
-    import './Registro.css';
+ import './Registro.css';
 const Registro = () => {
     return (
        <div id="divRegistro">

@@ -1,7 +1,6 @@
-import React from "react";
-import './LoginAdmin.css';
-
+import './LoginAdmin.css'
 const LogInAdmin = () => {
+  
     return (
         
             <div className="wrapper">

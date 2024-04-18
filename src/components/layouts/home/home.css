@@ -1,0 +1,18 @@
+nav{
+    background-color: #f53bab;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mSalir{
+    display: flex;
+    justify-content: right;
+}
+
+.salir{
+    height:30px;
+    border: none;
+    border-radius: 10px;
+}
