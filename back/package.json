@@ -1,0 +1,20 @@
+{
+  "author": "Juan Pablo Mora",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json": "json-server index.json"
+  },
+  "keywords": [
+    "Node",
+    "Js",
+    "React",
+    "json-server",
+    "JavaScript",
+    "API",
+    "servidor"
+  ]
+}

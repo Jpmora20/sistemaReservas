@@ -1,0 +1,62 @@
+{
+  "estudiante": [
+    {
+      "id": "985c"
+    },
+    {
+      "id": "4aae",
+      "documento": "112323",
+      "nombre": "dasd",
+      "programa": "Tecnico Asistente En Desarrollo De Sofware",
+      "correo": "wqweqwe",
+      "numero": "123231"
+    },
+    {
+      "id": "7408",
+      "documento": "1022002570",
+      "nombre": "Juan Pablo Mora",
+      "programa": "Tecnico Asistente En Desarrollo De Sofware",
+      "correo": "juanpablo07mora@gmail.com",
+      "numero": "3242194170"
+    },
+    {
+      "id": "05d2",
+      "documento": "",
+      "nombre": "",
+      "programa": "",
+      "correo": "",
+      "numero": ""
+    },
+    {
+      "id": "2987",
+      "documento": "1022002570",
+      "nombre": "dasd",
+      "contrasena": "123",
+      "programa": "Tecnico Asistente En Desarrollo De Sofware",
+      "correo": "sadsda"
+    },
+    {
+      "id": "a6cb",
+      "documento": "102200570",
+      "nombre": "qwqe",
+      "contrasena": "qewee",
+      "programa": "Tecnico Asistente En Desarrollo De Sofware",
+      "correo": "qwewe"
+    },
+    {
+      "id": "e619",
+      "documento": "1022002570",
+      "nombre": "Juan Pablo",
+      "contrasena": "asdasd",
+      "programa": "Tecnico Asistente En Desarrollo De Sofware",
+      "correo": "13123"
+    },
+    {
+      "id": "1022002570",
+      "nombre": "adsd",
+      "contrasena": "qweqwe",
+      "programa": "Tecnico Asistente En Desarrollo De Sofware",
+      "correo": "asdsad"
+    }
+  ]
+}
