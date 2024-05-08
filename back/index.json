@@ -57,6 +57,21 @@
       "contrasena": "qweqwe",
       "programa": "Tecnico Asistente En Desarrollo De Sofware",
       "correo": "asdsad"
+    },
+    {
+      "id": "102202570",
+      "nombre": "asd",
+      "contrasena": "1233",
+      "programa": "Confiar",
+      "correo": "asdasd"
+    },
+    {
+      "id": "6fd1",
+      "document": "1022002570",
+      "nombre": "asd",
+      "contrasena": "123",
+      "programa": "Tecnico Asistente En Desarrollo De Sofware",
+      "correo": "asdas"
     }
   ]
 }

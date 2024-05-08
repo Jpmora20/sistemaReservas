@@ -17,11 +17,6 @@ const LogInAdmin = () => {
         console.log(response.data);
         setEstudiantes(response.data);
     }
-
-    useEffect(() => {
-        getEstudiantes();
-    }, []);
-
     function validarInicioSesion() {
         if (buscarDocumento()) {
             Swal.fire({
@@ -38,10 +33,14 @@ const LogInAdmin = () => {
             })
         }
     }
+    useEffect(() => {
+        getEstudiantes();
+    }, []);
+
 
     function buscarDocumento() {
         return estudiantes.some(
-            (estudiante) => estudiante.document === getDocument && estudiante.contrasena === getPassword
+            (estudiante) => estudiante.document == getDocument && estudiante.contrasena === getPassword
         )
     }
 

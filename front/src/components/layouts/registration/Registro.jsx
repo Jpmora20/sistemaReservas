@@ -22,11 +22,11 @@ const Registro = () => {
     }, []);
 
     function buscarDocumento() {
-        return documentos.some((documento) => documento.id === getDocument);
+        return documentos.some((documento) => documento.documento === getDocument);
     }
     async function agregarEstudiante() {
         let estudiante = {
-            id: getDocument,
+            documento: getDocument,
             nombre: getName,
             contrasena: getContrasena,
             programa: getProgram,
