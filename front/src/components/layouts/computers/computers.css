@@ -1,0 +1,148 @@
+form{
+    padding: 10px;
+}
+
+h1{
+    padding: 10px;
+}
+
+.sc{
+    padding: 5px;
+}
+
+.pa{
+    padding: 10px;
+}
+
+.btn-cont{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 10px;
+}
+
+input{
+    padding: 5px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputbox {
+    position: relative;
+    width: 196px;
+  }
+  
+  .inputbox input {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+  }
+  
+  .inputbox span {
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px;
+    font-size: 1em;
+    color: #8f8f8f;
+    letter-spacing: 00.05em;
+    transition: 0.5s;
+    pointer-events: none;
+  }
+  
+  .inputbox input:valid ~span,
+  .inputbox input:focus ~span {
+    color: #f53bab;
+    transform: translateX(-10px) translateY(-34px);
+    font-size: 0,75em;
+  }
+  
+  .inputbox i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #f53bab;
+    border-radius: 4px;
+    transition: 0.5s;
+    pointer-events: none;
+    z-index: 9;
+  }
+  
+  .inputbox input:valid ~i,
+  .inputbox input:focus ~i {
+    height: 44px;
+}
+
+button {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #03045e;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+    z-index: 1;
+   }
+   
+   button::before,
+   button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transform: skew(15deg);
+    transition: all 0.5s;
+    overflow: hidden;
+    z-index: -1;
+   }
+   
+   button::before {
+    left: -10px;
+    background: #ff0099;
+   }
+   
+   button::after {
+    right: -10px;
+    background: #f53bab;
+   }
+   
+   button:hover::before,
+   button:hover::after {
+    width: 58%;
+   }
+   
+   button:hover span {
+    color: #e0aaff;
+    transition: 0.3s;
+   }
+   
+   button span {
+    color: #03045e;
+    font-size: 18px;
+    transition: all 0.3s ease-in;
+   }
+
+select{
+  width: 100%;
+  border-radius: 15px;
+  border: 10px;
+}

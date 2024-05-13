@@ -1,13 +1,17 @@
 import './header.css';
+import { useNavigate } from "react-router-dom";
+
 function Header(){
+    const redireccion = useNavigate();
+
     return(
         <header>
             <nav>
             <div className="logoC">
-                <p>LOGO CESDE</p>
+            <img src="/src/assets/logoCesde.png" alt="logoCesde" className="logo"/>
             </div>
             <div className="mSalir">
-                <button className="salir">SALIR</button>
+                <button onClick={redireccion("/")}><span>Salir</span></button>
             </div>
         </nav>
         </header>

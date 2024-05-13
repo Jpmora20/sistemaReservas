@@ -3,13 +3,14 @@ import { Header } from "../header/Header"
 import Rooms from "../rooms/RoomsDisp"
 import StudentInfo from "../students/StudentsInfo"
 import '../home/home.css'
+
 function Home() {
   return (
-    <div>
+    <div className="cont">
       <Header/>
       <StudentInfo/>
-        <Rooms />
-        <ComputerReservation />
+      <Rooms />
+      <ComputerReservation />
     </div>
   )
 }

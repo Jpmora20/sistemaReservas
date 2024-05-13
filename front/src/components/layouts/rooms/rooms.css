@@ -1,0 +1,22 @@
+.conteiner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    padding: 10px;
+}
+
+.input{
+    padding: 10px;
+}
+
+.salas{
+    padding: 10px;
+}
+
+select{
+    padding: 5px;
+}
