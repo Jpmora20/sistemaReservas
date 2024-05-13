@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useNavigate } from "react-router-dom";
+import {Link, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import axios from "axios";
 import './Registro.css';
@@ -89,7 +89,7 @@ const Registro = () => {
                             setEmail(e.target.value)
                         }} />
                     </div>
-                    <p className="textoLogin">Ya tienes una cuenta? <a href="#">Inicia sesion</a></p>
+                    <p className="textoLogin">Ya tienes una cuenta? <Link to="/">Inicia sesion</Link></p>
                     <button onClick={registrarEstudiante} id="btnRegistro"></button>
                 </div>
             </section>

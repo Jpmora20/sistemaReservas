@@ -1,6 +1,6 @@
 import './LoginAdmin.css';
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from 'axios';
 import Swal from 'sweetalert2';
 
@@ -63,7 +63,7 @@ const LogInAdmin = () => {
                 </div>
 
                 <div className="olvidar-contraseña">
-                    <a href="#">Olvidaste la contraseña?</a>
+                    <p>No tienes cuenta? <Link to="/registro">Registrate aqui</Link></p>
                 </div>
                 <button className="btnlogin" type="submit" onClick={validarInicioSesion}>Iniciar sesión</button>
             </section>

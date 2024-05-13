@@ -1,8 +1,7 @@
 import './header.css';
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header(){
-    const redireccion = useNavigate();
 
     return(
         <header>
@@ -11,7 +10,7 @@ function Header(){
             <img src="/src/assets/logoCesde.png" alt="logoCesde" className="logo"/>
             </div>
             <div className="mSalir">
-                <button onClick={redireccion("/")}><span>Salir</span></button>
+                <button><span><Link to="/">Salir</Link></span></button>
             </div>
         </nav>
         </header>
