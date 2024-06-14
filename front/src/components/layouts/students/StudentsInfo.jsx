@@ -1,4 +1,7 @@
+import {Link} from 'react-router-dom'
 import "../students/Students.css";
+import EditStudent from './EditStudent';
+import './StudentsInfo.css';
 
 const StudentInfo = () => {
     return (
@@ -52,6 +55,9 @@ const StudentInfo = () => {
                         </div>
                     </div>
                 </div>
+            </section>
+            <section>
+                <button><Link to={"/editStudents"} className='btn'>Editar Usuario</Link></button>
             </section>
         </form>
     )

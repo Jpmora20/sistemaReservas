@@ -1,0 +1,30 @@
+.btn{
+    text-decoration: none;
+    color: #f53bab;
+    font-size: 20px;
+}
+
+.btn:hover{
+    color: rgb(211, 211, 211);
+}
+
+.btn-eliminar{
+    color: rgb(174, 5, 5);
+}
+
+.inputbox{
+    padding: 10px;
+}
+
+.caja{
+    padding: 5px;
+}
+
+.btn-editar{
+    padding: 0;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+}

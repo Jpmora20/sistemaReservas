@@ -90,7 +90,7 @@ const Registro = () => {
                         }} />
                     </div>
                     <p className="textoLogin">Ya tienes una cuenta? <Link to="/">Inicia sesion</Link></p>
-                    <button onClick={registrarEstudiante} id="btnRegistro"></button>
+                    <button onClick={registrarEstudiante} id="btnRegistro">Registrar</button>
                 </div>
             </section>
         </div>

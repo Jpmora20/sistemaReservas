@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from 'axios';
 import Swal from 'sweetalert2';
 
-const urlEstudiantes = "http://localhost:3000/estudiante";
+let urlEstudiantes = "http://localhost:3000/estudiante";
 
 const LogInAdmin = () => {
     const [getDocument, setDocument] = useState("");
@@ -40,7 +40,7 @@ const LogInAdmin = () => {
 
     function buscarDocumento() {
         return estudiantes.some(
-            (estudiante) => estudiante.document == getDocument && estudiante.contrasena === getPassword
+            (estudiante) => estudiante.documento === getDocument && estudiante.contrasena === getPassword
         )
     }
 
@@ -59,7 +59,7 @@ const LogInAdmin = () => {
                 <div className="campo">
                     <label htmlFor="password">Contraseña:</label>
                     <input type="password" className="control" id="password" onChange={(e) =>
-                        setPassword(e.target.value)} required />
+                        setPassword(e.target.value)} />
                 </div>
 
                 <div className="olvidar-contraseña">
@@ -67,6 +67,7 @@ const LogInAdmin = () => {
                 </div>
                 <button className="btnlogin" type="submit" onClick={validarInicioSesion}>Iniciar sesión</button>
             </section>
+            
         </div>
     )
 }

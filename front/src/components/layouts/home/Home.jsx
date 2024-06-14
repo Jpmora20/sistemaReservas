@@ -3,6 +3,8 @@ import { Header } from "../header/Header"
 import Rooms from "../rooms/RoomsDisp"
 import StudentInfo from "../students/StudentsInfo"
 import '../home/home.css'
+import { useState } from "react"
+import Footer from "../footer/Footer"
 
 function Home() {
   return (
@@ -11,6 +13,7 @@ function Home() {
       <StudentInfo/>
       <Rooms />
       <ComputerReservation />
+      <Footer />
     </div>
   )
 }
